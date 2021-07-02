@@ -1,0 +1,19 @@
+
+{
+  "bracketSpacing": false,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.js", "*.tsx"],
+      "options": {
+        "trailingComma": "all"
+      }
+    },
+    {
+      "files": "*.scss",
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}
