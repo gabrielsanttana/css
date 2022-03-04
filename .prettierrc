@@ -1,16 +1,15 @@
-
 {
   "bracketSpacing": false,
   "singleQuote": true,
   "overrides": [
     {
-      "files": ["*.js", "*.tsx"],
+      "files": ["*.js", "*.tsx", "*.html"],
       "options": {
         "trailingComma": "all"
       }
     },
     {
-      "files": "*.scss",
+      "files": "*.css",
       "options": {
         "singleQuote": false
       }
