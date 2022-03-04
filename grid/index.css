@@ -171,7 +171,7 @@
   grid-area: child-8;
 }
 
-.flex-container {
+.grid-container-7 {
   padding: 16px;
   margin-top: 40px;
   display: grid;
@@ -180,14 +180,27 @@
   grid-auto-rows: minmax(200px, auto);
 }
 
+.flex-container {
+  padding: 16px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flex-container .grid-child {
+  min-width: 200px;
+  flex: 1;
+}
+
 @media only screen and (max-width: 720px) {
-  .flex-container {
+  .grid-container-7 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .flex-container {
+  .grid-container-7 {
     grid-template-columns: repeat(1, 1fr);
   }
 }
