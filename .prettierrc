@@ -3,13 +3,13 @@
   "singleQuote": true,
   "overrides": [
     {
-      "files": ["*.js", "*.tsx", "*.html"],
+      "files": ["*/*.js", "*/*.tsx", "*/*.html"],
       "options": {
         "trailingComma": "all"
       }
     },
     {
-      "files": "*.css",
+      "files": "*/*.css",
       "options": {
         "singleQuote": false
       }
