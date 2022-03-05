@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+header > div {
+  width: 1200px;
+  height: 60px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+section {
+  padding: 40px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 20px;
+}
+
+section main {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 16px;
+    flex-direction: column;
+  }
+}
+
+section main > .video {
+  background-color: grey;
+  height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  section main > .video {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  section main > .video {
+    height: 260px;
+    margin-bottom: 60px;
+  }
+}
+
+section aside {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  section aside {
+    width: 100%;
+  }
+}
+
+section aside .card .body {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+}
+
+@media only screen and (max-width: 768px) {
+  section aside {
+    width: 230px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  section aside {
+    width: 200px;
+  }
+}
+
+section aside .card .description {
+  width: 100%;
+  height: 20px;
+}
